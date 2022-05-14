@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: stephanecoder/my-javascript-action@v1
+        uses: stephanecoder/my-javascript-action@e0250291eb57809efbd98bbb4a482d166d114eca
         with:
           who-to-greet: Stephane
       - name: Get the output time
